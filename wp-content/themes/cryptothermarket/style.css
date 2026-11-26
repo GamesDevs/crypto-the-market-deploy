@@ -1,0 +1,373 @@
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jvWyNL4U.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jtGyNL4U.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jvmyNL4U.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCv6KVjbNBYlgoCjC3jsGyN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.alignnone {
+    margin: 5px 40px 20px 0;
+}
+.aligncenter, div.aligncenter {
+    margin: auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 40px;
+}
+.alignleft {
+    float:left;
+    margin: 5px 40px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float:right;
+    margin: 5px 0 20px 40px;
+}
+a img.alignnone {
+    margin: 5px 40px 20px 0;
+}
+a img.alignleft {
+    float:left;
+    margin: 5px 40px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 40px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 40px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 40px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin:0;
+    max-width: 98.5%;
+    padding:0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size:11px;
+    line-height:17px;
+    margin:0;
+    padding:0 4px 5px;
+}
+
+.cat-nav li {
+    border-right: 1px solid #dedede;
+}
+.cat-nav li:last-child {
+    border-right:none;
+}
+.footer .footer-top {
+    padding-bottom: 20px;
+}
+.footer {
+    padding: 30px 0 20px;
+}
+.footer__menu .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    text-align: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: center;
+}
+@media all and (min-width:1024px){
+.menu-item-has-children {
+	position:relative;
+	
+}
+.menu-item-has-children > ul{
+	display: none;
+    position: absolute;
+    top: 0;
+    list-style: none;
+    left: -33px;
+    padding: 0;
+    margin: 0;
+    padding: 40px 0 15px 0px;
+    white-space: nowrap;
+    margin-top: 25px;
+    background: #dae8ee;
+	
+}
+.swiper-slide{
+	z-index:2 !important;
+}
+.header{
+	z-index:4;
+}
+
+.menu-item-has-children:hover .sub-menu{
+	display:block !important;
+	min-width: 220px;
+
+}	
+}
+@media all and (max-width:1023px){
+	.menu-item-has-children{
+		text-align:center;
+		
+	}
+	.menu-item-has-children ul{
+	
+		list-style: none;
+		padding: 0;
+
+	}
+}
+.broker-price .price{
+	display:flex;
+}
+
+@media all and (max-width:1024px){
+	.menu-item-has-children > ul{
+		display:none;
+	}
+	.sub-menu.active{
+		display:block !important;
+	}
+}
+
+.single .broker-thumb img{
+	min-width:105px;
+}
+.blog .item.item-stock-wrap .item-stock-icon img{
+	min-width:150px;	
+}
+
+#wd{
+    display: flex;
+    width: 100%;
+    min-height: 550px;
+    margin-bottom: 25px;	
+}
+@media all and (max-width:990px){
+#wpcf7-f2181-p2182-o1 input, #wpcf7-f2181-p2182-o1 select, #wpcf7-f2181-p2182-o1 textarea {
+	width:99%;
+	min-height: 50px;
+}
+	.blog .item.item-stock-wrap .item-stock-icon img {
+min-width: 120px !important;
+    width: 120px !important;
+
+	}
+.item-stock .item-stock-icon {
+    height: 175px !important;
+        min-height: 175px;
+}
+}
+.option .descr a{
+    color: #0880ae;
+    text-decoration: none;
+}
+.option .descr a:hover{
+    text-decoration: underline;
+}
+
+.section.broker-header.stock-banner .broker-price .descr {
+   justify-content: left !important; 
+}
+
+.section.broker-header.stock-banner .broker-price {
+    text-align: left;
+}
+
+.broker-header .broker-price .descr {
+    font-size: 20px;
+}
+
+.broker-thumb-wrap .descr .price > span{
+	margin-right:3px;
+} 
+@media all and (min-width:1024px){
+	.broker-header .broker-top {
+		align-items: start;
+	}
+}
+
+.search-results .btn-review, .search-results .btn-stock-1 {
+    color: #0880ae !important;
+    background-color: #fff !important;
+}
+.search-results .btn-link, .search-results .btn-stock-2 {
+    padding: 14px;
+    color: #fff !important;
+    background-color: #0880ae !important;
+}
+.search-results .btn-review, .btn-stock-1:hover, .search-results .btn-link, .btn-stock-2:hover{
+	text-decoration:none !important;
+}
+@media all and (max-width:1200px){
+	.single .exchange-table:not(.exchange-table-container) {
+		width:100%;
+	}	
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(4), 
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(5), 
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(6), 
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(7), 
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(8), 
+	.single .exchange-table:not(.exchange-table-container) .exchange-item > div:nth-of-type(9) {
+		display:none !important;
+	}
+	.single .exchange-header:not(.exchange-table-header) > div:nth-of-type(3), 
+	.single .exchange-header:not(.exchange-table-header) > div:nth-of-type(4), 
+	.single .exchange-header:not(.exchange-table-header) > div:nth-of-type(5){
+		display:none !important;
+	}
+}
+@media all and (min-width:1024px){
+.sub-menu li{
+	padding:10px 0px;
+}
+.menu-item-has-children:after{
+	content: '˅';
+    position: absolute;
+    right: -15px;
+    font-weight: 700;
+    top: 4px;
+}
+.menu-item-has-children:hover:after{
+	content:'˄';
+	color: #0880ae;
+
+}
+.menu-item-has-children:hover a{
+	color: #0880ae;	
+}
+.menu-item-has-children:after:hover{
+		color: #0880ae;
+}
+}
+
+.sidebar-xl {
+    display: block;
+}
+
+.sidebar-sm {
+    display: none;
+}
+
+@media (max-width: 992px){
+.sidebar-xl {
+    display: none;
+}
+.sidebar-sm {
+    display: block;
+}
+}
+
+@media (max-width: 768px){
+.section.broker-header.stock-banner .broker-price .descr {
+   justify-content: center !important; 
+}
+
+.section.broker-header.stock-banner .broker-price {
+    text-align: center;
+}   
+}
+
+.page .content ol li::before, .the_content ol li::before{
+	
+}
+.page .section-anchor .container{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+.header-menu .menu li a {
+    color: #2c2738 !important;
+}
+
+.exchange-nav a:nth-of-type(1){
+    margin-bottom: 10px;
+}
