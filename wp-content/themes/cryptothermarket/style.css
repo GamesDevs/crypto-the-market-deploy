@@ -371,3 +371,109 @@ min-width: 120px !important;
 .exchange-nav a:nth-of-type(1){
     margin-bottom: 10px;
 }
+
+.content-table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    margin: 18px 0 24px;
+    border-radius: 14px;
+    border: 1px solid #d9e6ee;
+    background: #ffffff;
+    box-shadow: 0 4px 16px rgba(14, 42, 71, 0.04);
+}
+
+.anchor-section table,
+.content table,
+.the_content table,
+table.content-table {
+    width: 100% !important;
+    height: auto !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    margin: 18px 0 24px;
+    border-radius: 14px;
+    border: 1px solid #d9e6ee;
+    background: #ffffff;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 1.45;
+    color: #2c2738;
+}
+
+.content-table-wrap table.content-table {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.anchor-section table thead th,
+.content table thead th,
+.the_content table thead th,
+table.content-table thead th,
+.anchor-section table:not(:has(thead)) tbody tr:first-child td,
+.content table:not(:has(thead)) tbody tr:first-child td {
+    background: #dfeaf0;
+    color: #4a5b6b;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    padding: 14px 20px;
+    border-bottom: 1px solid #cfdce5;
+}
+
+.anchor-section table td,
+.anchor-section table th,
+.content table td,
+.content table th,
+.the_content table td,
+.the_content table th,
+table.content-table td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #edf3f7;
+    vertical-align: middle;
+    height: auto !important;
+}
+
+.anchor-section table tbody tr:last-child td,
+.content table tbody tr:last-child td,
+.the_content table tbody tr:last-child td,
+table.content-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.anchor-section table tbody tr:nth-child(even) td,
+.content table tbody tr:nth-child(even) td,
+.the_content table tbody tr:nth-child(even) td,
+table.content-table tbody tr:nth-child(even) td {
+    background: #f8fbfd;
+}
+
+.anchor-section table tbody tr:hover td,
+.content table tbody tr:hover td,
+.the_content table tbody tr:hover td,
+table.content-table tbody tr:hover td {
+    background: #f0f7fb;
+}
+
+table.content-table tbody td:first-child {
+    font-weight: 500;
+    color: #1f2937;
+}
+
+table.content-table tbody td:not(:first-child) {
+    font-weight: 600;
+    color: #0880ae;
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+    .anchor-section table thead th,
+    .anchor-section table td,
+    .content table thead th,
+    .content table td,
+    table.content-table thead th,
+    table.content-table td {
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+}
